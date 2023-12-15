@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: #635a5a;
+    background-color: rgb(129, 121, 122);
+}
+
+li {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a {
+    color: rgb(150, 38, 94);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited{
+    color: magenta;
+}
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.bold {
+    font-style: bold;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.homebg {
+    background-image: url('images/Chicago.jpg');
+    background-position: bottom right;
+    background-repeat: repeat;
+}
+/* This is for a demo of the box model */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightsalmon;
+    border-bottom: dotted red;
+}
+
+.box2 {
+    padding: 4px;
+}
+
+.box3{
+    margin: 50px;
+}
+
+.box4{
+    padding-left: 10px;
+    margin: 100px;
+    border-right: solid blue;
+}
